@@ -1,0 +1,27 @@
+Reading netlist file: "C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\gwsynthesis\soft_usb.vg"
+Parsing netlist file "C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\gwsynthesis\soft_usb.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\soft_usb.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'CLK_IN_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Generate file "C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\pnr\soft_usb.pin.html" completed
+Generate file "C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\pnr\soft_usb.rpt.html" completed
+Generate file "C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\pnr\soft_usb.rpt.txt" completed
+Generate file "C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\pnr\soft_usb.tr.html" completed
+Tue Jul 16 09:03:54 2024
+

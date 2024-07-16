@@ -1,0 +1,17 @@
+-d C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\gwsynthesis\soft_usb.vg
+-p GW5AST-138B-FCPBGA676A-1
+-pn GW5AST-LV138FPG676AES
+-cst C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\soft_usb.cst
+-cfg C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-ireg_not_in_iob
+-oreg_not_in_iob
+-ioreg_not_in_iob
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000
+-enable_dsrm 0

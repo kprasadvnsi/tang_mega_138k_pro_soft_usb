@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AST-138B" package="FCPBGA676A" speed="1" partNumber="GW5AST-LV138FPG676AES"/>
+    <FileList>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\fixed_point_divider\fixed_point_divider.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\gowin_pll\gowin_pll.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\gowin_pll_24\gowin_pll_24.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\sync_fifo\sync_rx_pkt_fifo.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\sync_fifo\sync_tx_pkt_fifo.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\sync_fifo\usb_fifo.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\top.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\uart\uart.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\uart\usb_uart_config.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\usb2_0_softphy\usb2_0_softphy.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\usb_descriptor.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\usb_device_controller\usb_device_controller.v" type="verilog"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\uart\uart_rx.vhd" type="vhdl"/>
+        <File path="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\src\uart\uart_tx.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\kp\Desktop\opi_msoc\examples\soft_usb\impl\gwsynthesis\soft_usb.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

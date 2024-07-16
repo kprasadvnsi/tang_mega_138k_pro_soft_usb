@@ -1,0 +1,186 @@
+[
+ {
+  "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+    "InstLine" : 126,
+    "InstName" : "Gowin_PLL_24",
+    "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/gowin_pll_24/gowin_pll_24.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL_24"
+   },
+   {
+    "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+    "InstLine" : 131,
+    "InstName" : "Gowin_PLL",
+    "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+    "InstLine" : 171,
+    "InstName" : "u_UART",
+    "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/uart/uart.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "UART",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/uart/uart.v",
+      "InstLine" : 95,
+      "InstName" : "uart_tx_inst",
+      "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/uart/uart_tx.vhd",
+      "ModuleLine" : 14,
+      "ModuleName" : "UART_TX"
+     },
+     {
+      "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/uart/uart.v",
+      "InstLine" : 121,
+      "InstName" : "uart_rx_inst",
+      "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/uart/uart_rx.vhd",
+      "ModuleLine" : 14,
+      "ModuleName" : "UART_RX"
+     },
+     {
+      "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/uart/uart.v",
+      "InstLine" : 143,
+      "InstName" : "your_instance_name",
+      "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/fixed_point_divider/fixed_point_divider.v",
+      "ModuleLine" : 1000,
+      "ModuleName" : "Fixed_Point_Divider_Top",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/fixed_point_divider/fixed_point_divider.v",
+        "InstLine" : 1017,
+        "InstName" : "u_fra_div",
+        "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/fixed_point_divider/fixed_point_divider.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "~qdiv.Fixed_Point_Divider_Top"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+    "InstLine" : 197,
+    "InstName" : "usb_fifo",
+    "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+    "ModuleLine" : 89,
+    "ModuleName" : "usb_fifo",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+      "InstLine" : 667,
+      "InstName" : "usb_tx_buf_ep2",
+      "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+      "ModuleLine" : 1279,
+      "ModuleName" : "usb_tx_buf",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+        "InstLine" : 1322,
+        "InstName" : "clk_cross_fifo",
+        "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+        "ModuleLine" : 1565,
+        "ModuleName" : "clk_cross_fifo"
+       },
+       {
+        "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+        "InstLine" : 1385,
+        "InstName" : "sync_tx_pkt_fifo",
+        "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/sync_tx_pkt_fifo.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "sync_tx_pkt_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+      "InstLine" : 689,
+      "InstName" : "usb_rx_buf_ep2",
+      "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+      "ModuleLine" : 1402,
+      "ModuleName" : "usb_rx_buf",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+        "InstLine" : 1458,
+        "InstName" : "sync_rx_pkt_fifo",
+        "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/sync_rx_pkt_fifo.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "sync_rx_pkt_fifo"
+       },
+       {
+        "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+        "InstLine" : 1502,
+        "InstName" : "clk_cross_fifo",
+        "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/sync_fifo/usb_fifo.v",
+        "ModuleLine" : 1565,
+        "ModuleName" : "clk_cross_fifo"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+    "InstLine" : 245,
+    "InstName" : "u_usb_device_controller_top",
+    "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/usb_device_controller/usb_device_controller.v",
+    "ModuleLine" : 6931,
+    "ModuleName" : "USB_Device_Controller_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/usb_device_controller/usb_device_controller.v",
+      "InstLine" : 7062,
+      "InstName" : "u_usb_device_controller",
+      "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/usb_device_controller/usb_device_controller.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "~usb_device_controller.USB_Device_Controller_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+    "InstLine" : 323,
+    "InstName" : "u_usb_desc",
+    "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/usb_descriptor.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "usb_desc"
+   },
+   {
+    "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+    "InstLine" : 351,
+    "InstName" : "u_USB_SoftPHY_Top",
+    "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/usb2_0_softphy/usb2_0_softphy.v",
+    "ModuleLine" : 4718,
+    "ModuleName" : "USB2_0_SoftPHY_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/usb2_0_softphy/usb2_0_softphy.v",
+      "InstLine" : 4791,
+      "InstName" : "usb2_0_softphy",
+      "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/usb2_0_softphy/usb2_0_softphy.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "~usb2_0_softphy.USB2_0_SoftPHY_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/top.v",
+    "InstLine" : 379,
+    "InstName" : "u_usb_uart_config",
+    "ModuleFile" : "C:/Users/kp/Desktop/opi_msoc/examples/soft_usb/src/uart/usb_uart_config.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "usb_uart_config"
+   }
+  ]
+ }
+]
